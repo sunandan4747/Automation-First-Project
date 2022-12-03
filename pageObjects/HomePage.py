@@ -4,13 +4,16 @@ from pageObjects.CheckoutPage import CheckOutPage
 
 
 class HomePage:
+    '''
+        POM  => Page object model
 
+    '''
     def __init__(self, driver):
         self.driver = driver
 
     shop = (By.CSS_SELECTOR, "a[href*='shop']")
-    name = (By.CSS_SELECTOR, "[name='name']")
-    email = (By.NAME, "email")
+    __name = (By.CSS_SELECTOR, "[name='name']")
+    __email = (By.NAME, "email")
     check = (By.ID, "exampleCheck1")
     gender= (By.ID, "exampleFormControlSelect1")
     submit = (By.XPATH, "//input[@value='Submit']")
@@ -22,11 +25,11 @@ class HomePage:
         return checkOutPage
 
     def getName(self):
-        return self.driver.find_element(*HomePage.name)
+        return self.driver.find_element(*HomePage.__name)
 
 
     def getEmail(self):
-        return self.driver.find_element(*HomePage.email)    # * is used to unpack tuple in parameters
+        return self.driver.find_element(*HomePage.__email)    # * is used to unpack tuple in parameters
         ## HomePage.email[0], HomePage.email[1] => *HomePage.email
 
 
