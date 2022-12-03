@@ -8,7 +8,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.select import Select
 
 
-@pytest.mark.usefixtures("setup")
+@pytest.mark.usefixtures("setup")       ## fixture gets execute before and after function or class
 class BaseClass:
 
     def getLogger(self):
