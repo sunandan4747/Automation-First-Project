@@ -10,10 +10,11 @@ def pytest_addoption(parser):
     )
 
 
-@pytest.fixture(scope="class")
-def setup(request):
+@pytest.fixture(scope="class")      ## decorator to create fixture and can be used on class level
+def setup(request):     ## request is predefined object, which will be auto populated by pytest
     global driver
     browser_name=request.config.getoption("browser_name")   #pytest --browser_name "firefox"
+
      # parameter which can be passed with pytest command
     if browser_name == "chrome":
         driver = webdriver.Chrome()
@@ -28,6 +29,11 @@ def setup(request):
     driver.maximize_window()
 
     request.cls.driver = driver         ## request => to class which is using fixture
+    '''
+        request is a parameter in fixture.. cls is property in request which will be auto populated with the class name whoever using fixture
+        we are injecting driver into base class so that base class can use self.driver and its childs as well
+        you can just change driver to myDriver or something but in base class you need to use self.myDriver or self.something
+    '''
     yield
     driver.close()
 

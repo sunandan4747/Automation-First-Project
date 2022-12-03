@@ -312,3 +312,32 @@ Success! Thank you! Your order will be delivered in next few weeks :-).
 2022-03-20 13:01:24,341 :INFO : test_e2e :Entering country name as ind
 2022-03-20 13:01:31,116 :INFO : test_e2e :Text received from application is ×
 Success! Thank you! Your order will be delivered in next few weeks :-).
+2022-09-23 07:46:03,806 :INFO : test_formSubmission :first name is Rahul
+2022-09-23 07:46:06,959 :INFO : test_e2e :getting all the card titles
+2022-09-23 07:46:06,985 :INFO : test_e2e :iphone X
+2022-09-23 07:46:06,999 :INFO : test_e2e :Samsung Note 8
+2022-09-23 07:46:07,010 :INFO : test_e2e :Nokia Edge
+2022-09-23 07:46:07,017 :INFO : test_e2e :Blackberry
+2022-09-23 07:47:20,530 :INFO : test_formSubmission :first name is Rahul
+2022-09-23 07:47:24,927 :INFO : test_e2e :getting all the card titles
+2022-09-23 07:47:25,013 :INFO : test_e2e :iphone X
+2022-09-23 07:47:25,049 :INFO : test_e2e :Samsung Note 8
+2022-09-23 07:47:25,085 :INFO : test_e2e :Nokia Edge
+2022-09-23 07:47:25,131 :INFO : test_e2e :Blackberry
+2022-09-26 12:42:49,541 :INFO : test_formSubmission :first name is Sagar
+2022-09-26 12:42:50,275 :INFO : test_formSubmission :first name is Yusuf
+2022-09-26 12:42:50,275 :INFO : test_formSubmission :first name is Yusuf
+2022-09-26 12:44:04,610 :INFO : test_formSubmission :first name is Sagar
+2022-09-26 12:44:05,393 :INFO : test_formSubmission :first name is Yusuf
+2022-09-26 12:44:05,393 :INFO : test_formSubmission :first name is Yusuf
+2022-09-26 12:52:08,803 :INFO : test_formSubmission :first name is Sagar
+2022-09-26 12:52:09,557 :INFO : test_formSubmission :first name is Yusuf
+2022-09-26 12:52:09,557 :INFO : test_formSubmission :first name is Yusuf
+2022-09-26 12:52:15,938 :INFO : test_e2e :getting all the card titles
+2022-09-26 12:52:15,969 :INFO : test_e2e :iphone X
+2022-09-26 12:52:15,984 :INFO : test_e2e :Samsung Note 8
+2022-09-26 12:52:16,000 :INFO : test_e2e :Nokia Edge
+2022-09-26 12:52:16,013 :INFO : test_e2e :Blackberry
+2022-09-26 12:52:16,248 :INFO : test_e2e :Entering country name as ind
+2022-09-26 12:52:21,849 :INFO : test_e2e :Text received from application is ×
+Success! Thank you! Your order will be delivered in next few weeks :-).
